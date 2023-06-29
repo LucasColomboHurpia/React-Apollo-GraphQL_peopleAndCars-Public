@@ -143,7 +143,7 @@ const CarCard = ({ car, personID }) => {
             <p>Year: {car.year}</p>
             <p>Make: {car.make}</p>
             <p>Model: {car.model}</p>
-            <p>Price: {car.price}</p>
+            <p>Price: ${car.price}</p>
           </div>
           <div style={buttonContainerStyle}>
             <button style={editButtonStyle} onClick={handleEdit}>Edit</button>
